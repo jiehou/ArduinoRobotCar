@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/arduinoConsole" />
+
+    <TextView
+        android:id="@+id/tvCommand"
+        style="@style/command"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="Stop"
+        android:visibility="invisible"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/imageStatus"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/status" />
+
+        <Button
+            android:id="@+id/btnForward"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageStatus"
+            android:layout_centerHorizontal="true"
+            android:drawableBottom="@drawable/foward"
+            android:text="@string/forward"
+            android:textColor="#33434C" />
+
+        <Button
+            android:id="@+id/btnBackward"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageStatus"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="4dp"
+            android:drawableBottom="@drawable/backward"
+            android:text="@string/backward"
+            android:textColor="#33434C" />
+
+        <Button
+            android:id="@+id/btnLeft"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/imageStatus"
+            android:drawableBottom="@drawable/left"
+            android:text="@string/left"
+            android:textColor="#33434C" />
+
+        <Button
+            android:id="@+id/btnRight"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/imageStatus"
+            android:drawableBottom="@drawable/right"
+            android:text="@string/right"
+            android:textColor="#33434C" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Arduino Car Console</string>
+    <string name="setting_commands">Setting Commands</string>
+    <string name="pairedDevices">Paired Devices</string>
+    <string name="availableDevices">Available Devices</string>
+    <string name="searchDevices">Search for Devices</string>
+    <string name="searching">Searching&#8230;</string>
+    <string name="forward">Forward</string>
+    <string name="backward">Backward</string>
+    <string name="stop">Stop</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="arrowButton">Button</string>
+    <string name="command">Command</string>
+    <string name="update">Update</string>
+    <string name="arduinoConsole">Arduino Console</string>
+    <string name="parameter">Parameter</string>
+    <string name="value">Value</string>
+    <string name="interval">Interval (ms)</string>
+    <string name="hintCommand">Only a Alphanumeric character is allowed</string>
+    <string name="hintParameter">Interval should be an integer from 1 to 100</string>
+
+    <style name="header">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#33434C</item>
+    </style>
+
+    <style name="title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#33434C</item>
+    </style>
+
+    <style name="subtitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#33434C</item>
+    </style>
+    
+    <style name="command">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#C82D20</item>
+    </style>
+</resources>
