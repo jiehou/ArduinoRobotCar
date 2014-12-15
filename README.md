@@ -14,7 +14,7 @@ After some googling I found a good choice from the DX website. Actually these co
 Software Requirements: 
 *	Arduino IDE (http://arduino.cc/en/main/software)
 
-## Some Notes about this project:
+## Some notes about this project:
 * ArduinoCarConsole: An Android APP to send commands from Android to Arduino.
 * BluetoothCar: The complete source code of this robot car, it is written in C.
 * L298N: Source code of Demos about how to use L298N motor shield.
