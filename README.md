@@ -8,6 +8,7 @@ Hardware Requirements:
 *	Bluetooth Transceiver Chip (Serial Bluetooth Modem)
 *	Vehicle kit
 *	A breadboard and some jumper wires
+
 After some googling I found a good choice from the DX website. Actually these components can be ordered on some other websites ex. Sparkfun, Adafruit or Amazon.
 
 Software Requirements: 
