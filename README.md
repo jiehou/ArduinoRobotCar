@@ -20,6 +20,6 @@ Software Requirements:
 * Documents: The complete document about this project and some program flowcharts.
 
 ## Screenshots about finished robot car and Android APP:
-![] (https://github.com/jiehou/ArduinoRobotCar/tree/master/Images/ArduinoRobotCar.jpg)
-![] (https://github.com/jiehou/ArduinoRobotCar/tree/master/Images/APP-01.png)
-![] (https://github.com/jiehou/ArduinoRobotCar/tree/master/Images/APP-02.png)
+![Robot Car](https://github.com/jiehou/ArduinoRobotCar/tree/master/Images/ArduinoRobotCar.jpg)
+![Android APP](https://github.com/jiehou/ArduinoRobotCar/tree/master/Images/APP-01.png)
+![Android APP](https://github.com/jiehou/ArduinoRobotCar/tree/master/Images/APP-02.png)
